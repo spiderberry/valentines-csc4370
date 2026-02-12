@@ -41,3 +41,73 @@
 .heart {
   animation: heartbeat 1.5s ease-in-out infinite;
 }
+/* Garden Styling */
+
+.container {
+  position: relative;
+}
+
+#garden-background img{
+  width: 750px;
+  height: auto;
+}
+
+#flower-shop img{
+  position: absolute;
+  scale: 50%;
+  top: -50px;
+  left: 70px;
+  z-index: 1;
+}
+
+#couple img{
+  position: absolute;
+  scale: 25%;
+  top: -10px;
+  left: 15px;
+  z-index: 2;
+}
+
+#cupid img{
+  position: absolute;
+  scale: 5%;
+  top: -875px;
+  left: -900px;
+  z-index: 4;
+  animation: fly 3s linear infinite;
+}
+
+@keyframes fly {
+  0% {transform: translateX(0);}
+  100% {transform: translateX(12500px);}
+}
+
+#pink-confetti img{
+  position: absolute;
+  scale:45%;
+  top: -20px;
+  left: 10px;
+  z-index: 3;
+}
+
+#person-waving img{
+  position: absolute;
+  scale: 7.5%;
+  top: -35px;
+  left: 400px;
+  z-index: 2;
+}
+
+#car img{
+  position: absolute;
+  scale: 30%;
+  top: -20px;
+  left: -200px;
+  z-index: 0;
+  animation: fly 3s linear infinite;
+}
+
+@keyframes fly {
+  0% {transform: translateX(0);}
+  100% {transform: translateX(2500px);}
+}
